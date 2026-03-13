@@ -33,8 +33,8 @@ return [
     | Admin Panel Logo
     |--------------------------------------------------------------------------
     */
-    'logo' => '<i class="fas fa-fingerprint me-2"></i><b>Smart</b>Presence',
-    // 'logo_img' => 'public/logo.png',
+    'logo' => 'Smart Presence',
+    'logo_img' => 'logo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -48,7 +48,7 @@ return [
     'auth_logo' => [
         'enabled' => true,
         'img' => [
-            'path' => 'dist/img/smartpresence-logo.png',
+            'path' => 'logo.png',
             'alt' => 'SmartPresence',
             'class' => 'elevation-3',
             'width' => 70,
@@ -65,7 +65,7 @@ return [
         'enabled' => true,
         'mode' => 'fullscreen',
         'img' => [
-            'path' => 'dist/img/smartpresence-logo.png',
+            'path' => 'logo.png',
             'alt' => 'Loading SmartPresence...',
             'effect' => 'animation__shake',
             'width' => 80,
