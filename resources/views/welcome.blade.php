@@ -1160,7 +1160,7 @@
                     @if (Route::has('login'))
                         @auth
                             <li class="nav-item">
-                                <a href="{{ url('/dashboard') }}" class="btn btn-sp btn-sm">
+                                <a href="{{ route('home') }}" class="btn btn-sp btn-sm">
                                     <i class="fas fa-tachometer-alt"></i> Dashboard
                                 </a>
                             </li>
